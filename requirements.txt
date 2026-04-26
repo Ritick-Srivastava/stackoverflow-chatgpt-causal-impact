@@ -1,24 +1,16 @@
-# Data collection
-pytrends>=4.9.0
+# Streamlit app (deployment)
 pandas>=1.5.0,<2.3
-numpy>=1.24.0
-
-# Visualization
-matplotlib>=3.7.0
 plotly>=5.18.0
-kaleido>=0.2.1
-
-# Causal inference (statsmodels-based BSTS, no TensorFlow required)
-causalimpact>=0.0.6
-
-# Stats / ML utilities
-scikit-learn>=1.3.0
-scipy>=1.10.0
-statsmodels>=0.14.0
-
-# Dashboard
 streamlit>=1.30.0
 
-# Notebooks
-jupyter>=1.0.0
-ipykernel>=6.20.0
+# Notebooks (local only — not needed for deployed app)
+# pytrends>=4.9.0
+# numpy>=1.24.0
+# matplotlib>=3.7.0
+# kaleido>=0.2.1
+# scikit-learn>=1.3.0
+# scipy>=1.10.0
+# statsmodels>=0.14.0
+# causalimpact>=0.0.6
+# jupyter>=1.0.0
+# ipykernel>=6.20.0
